@@ -26,7 +26,6 @@ class ResumeController {
             observer.observe(progressBar);
         });
     }
-
     initializeSectionToggles() {
         const skillsSection = document.getElementById('skills-section');
         const toggleButton = skillsSection === null || skillsSection === void 0 ? void 0 : skillsSection.querySelector('.section-toggle');

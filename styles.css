@@ -616,3 +616,22 @@ body {
     justify-content: center; 
   }
 }
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
+  width: 48%;
+}
+
+.skill-progress {
+  transition: width 0.5s ease;
+}
